@@ -3,23 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
-    <title>Dictionary : English</title>
+    <title>Totaro - Dictionary : English</title>
 </head>
 <body>
-<div class="bigcontainer">
 
-    <div class="navbar">
-        <div class="name">totaro://html:css:javascript</div>
-        <ul>
+    <header id="header">
+        <div class="navbar">
+            <div class="logo"><a href="">Totaro</a></div>
+            <ul class="links">
+                <li><a href="https://totaro.github.io/">Home</a></li>
             <li><a href="https://totaro.github.io/weather/">Weather</a></li>
-            <li><a href="https://totaro.github.io/digitalclock/">Digital Clock</a></li>
-            <li><a href="https://totaro.github.io/randomphotogallery/">PhotoGallery</a></li>
             <li><a href="https://totaro.github.io/dictionary/">Dictionary</a></li>
-        </ul>
+            <li><a href="https://totaro.github.io/randomphotogallery/">Photo Gallery</a></li>
+            <li><a href="https://totaro.github.io/digitalclock/">Digital Clock</a></li>
+            </ul>
+            <a href="#" class="action_btn">Contact Me!</a>
+            <div class="toggle_btn">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+
+        <div class="dropdown_menu">
+            <li><a href="https://totaro.github.io/">Home</a></li>
+            <li><a href="https://totaro.github.io/weather/">Weather</a></li>
+            <li><a href="https://totaro.github.io/dictionary/">Dictionary</a></li>
+            <li><a href="https://totaro.github.io/randomphotogallery/">Photo Gallery</a></li>
+            <li><a href="https://totaro.github.io/digitalclock/">Digital Clock</a></li>
+            <li><a href="#" class="action_btn">Contact Me!</a></li>
 
 
-    </div>
+        </div>
+    </header>
+
+    <main><section id="hero">
     <div class="container">
         <h1 class="heading">English Dictionary</h1>
         <input placeholder="Search a Word" type="text" class="input" id="input">
@@ -32,7 +50,8 @@
 
 
     </div>
-</div>
+</section></main>
+
     <script src="index.js"></script>
     
 </body>
