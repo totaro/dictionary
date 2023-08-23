@@ -209,6 +209,10 @@ section#hero{
         .audio{
             width: 250px;
         }
+
+        .input{
+            width: 250px
+        }
     }
 
 
