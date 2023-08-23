@@ -136,7 +136,7 @@ header {
     top: 80px;
     height: 0px;
     width: 300px;
-    background: rgb(255, 255, 255, .3);
+    background: rgb(255, 255, 255, .7);
     backdrop-filter: blur(15px);
     border-radius: 7px;
     overflow: hidden;
@@ -145,7 +145,7 @@ header {
 }
 
 .dropdown_menu.open{
-    height: 260px;
+    height: 200px;
 
 }
 
@@ -204,6 +204,10 @@ section#hero{
         .dropdown_menu{
             left: 2rem;
             width: unset;
+        }
+
+        .audio{
+            width: 250px;
         }
     }
 
