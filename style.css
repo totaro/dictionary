@@ -211,7 +211,8 @@ section#hero{
         }
 
         .input{
-            width: 250px
+            width: 250px;
+            margin-right: 0.5rem;
         }
     }
 
