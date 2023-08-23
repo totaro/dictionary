@@ -166,7 +166,7 @@ header {
 
 section#hero{
 
-    height: calc(100vh - 150px);
+    height: calc(80vh - 100px);
     display: flex;
     flex-direction: column;
     align-items: center;
